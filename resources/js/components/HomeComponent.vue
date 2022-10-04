@@ -32,15 +32,23 @@
       </div>
       <h1 class="text-white font-mono text-5xl text-center my-5">Assessment Home</h1>
    </div>
-      <InformationPage />
+   <div class="flex flex-col">
+      <!--<InformationPage />-->
+      <MakeTodo />
+      <Todo />
+   </div>
    </div>
 </template>
 <script>
 import InformationPage from './InformationPage.vue';
+import Todo from './Todo.vue';
+import MakeTodo from './MakeTodo.vue';
 
 export default {
    components: {
       InformationPage,
+      Todo,
+      MakeTodo,
    }
 }
 </script>
