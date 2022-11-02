@@ -1,4 +1,5 @@
 ## About Laravel Assessement
+This was a timed assessment, so things could have been better
 
 This template was built to take a Laravel Assessement. Laravel is the framework. We are using Vue.js as the front end and Tailwind CSS for the style.
 
